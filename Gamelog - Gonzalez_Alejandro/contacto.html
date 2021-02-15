@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gamelog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header contenedor">
+        <h1>Gamelog</h1>
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logotipo Gamelog">
+        </a>
+    </header>
+
+    <div class="barra">
+        <nav class="nav contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="blog.html">Blog</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="top.html">Top</a>
+            <a class="activo" href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+
+    <main class="contenedor">
+        <h2 class="centrar">Formulario de Contacto</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="Tu Teléfono" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+            </fieldset>
+               
+            <fieldset>
+                    <legend>Información sobre Operación</legend>
+
+                    <label for="opciones">Sugerencia o Solicitud</label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option>Sugerencia</option>
+                        <option>Solicitud</option>
+                    </select>
+            </fieldset>
+
+            <input type="submit" class="boton">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor contenedor-footer">
+            <nav class="nav">
+                <a href="inicio.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="blog.html">Blog</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="top.html">Top</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy;</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
